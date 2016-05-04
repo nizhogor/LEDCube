@@ -2334,8 +2334,6 @@ void loop(){
 	snake.growSnake(p); p.y++;
 	snake.growSnake(p); p.z++;
 	snake.growSnake(p);
-
-	snake.effectSnake();
 	
 	boolean playAnimation = true;
 	while (true)
